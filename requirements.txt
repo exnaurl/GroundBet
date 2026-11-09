@@ -1,0 +1,8 @@
+# 依赖（Python 3.10+）
+
+# 图形界面
+PySide6>=6.10
+# 抓取 Stake 接口
+requests>=2.31
+# 读取 .env
+python-dotenv>=1.0

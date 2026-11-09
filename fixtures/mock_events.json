@@ -1,0 +1,119 @@
+{
+  "_comment": "离线演示用足球赛事。offset_minutes 是相对当前时间的分钟数（负=已开始），score 存在即视为已结束。",
+  "events": [
+    {
+      "id": "mock-epl-001",
+      "sport": "football",
+      "league": "Premier League",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "offset_minutes": 45,
+      "odds": {"home": 1.85, "draw": 3.60, "away": 4.20},
+      "totals": [{"line": 2.5, "over": 1.95, "under": 1.85}],
+      "btts": [1.72, 2.05]
+    },
+    {
+      "id": "mock-laliga-002",
+      "sport": "football",
+      "league": "La Liga",
+      "home": "Real Madrid",
+      "away": "Sevilla",
+      "offset_minutes": 180,
+      "odds": {"home": 1.42, "draw": 4.60, "away": 7.20},
+      "totals": [{"line": 3.5, "over": 2.10, "under": 1.72}],
+      "btts": [2.20, 1.65]
+    },
+    {
+      "id": "mock-seriea-003",
+      "sport": "football",
+      "league": "Serie A",
+      "home": "Inter",
+      "away": "Juventus",
+      "offset_minutes": 420,
+      "odds": {"home": 2.05, "draw": 3.20, "away": 3.80},
+      "totals": [{"line": 2.5, "over": 2.05, "under": 1.76}],
+      "btts": [1.95, 1.82]
+    },
+    {
+      "id": "mock-bundesliga-004",
+      "sport": "football",
+      "league": "Bundesliga",
+      "home": "Bayern Munich",
+      "away": "Borussia Dortmund",
+      "offset_minutes": 1440,
+      "odds": {"home": 1.68, "draw": 4.10, "away": 4.30},
+      "totals": [{"line": 3.5, "over": 1.88, "under": 1.92}],
+      "btts": [1.55, 2.35]
+    },
+    {
+      "id": "mock-ligue1-005",
+      "sport": "football",
+      "league": "Ligue 1",
+      "home": "Paris Saint-Germain",
+      "away": "Marseille",
+      "offset_minutes": -35,
+      "odds": {"home": 1.58, "draw": 4.30, "away": 5.10},
+      "totals": [{"line": 3.5, "over": 2.02, "under": 1.78}],
+      "btts": [1.80, 1.98]
+    },
+    {
+      "id": "mock-csl-006",
+      "sport": "football",
+      "league": "Chinese Super League",
+      "home": "Shanghai Port",
+      "away": "Beijing Guoan",
+      "offset_minutes": -70,
+      "odds": {"home": 2.30, "draw": 3.10, "away": 3.05},
+      "totals": [{"line": 2.5, "over": 1.90, "under": 1.90}],
+      "btts": [1.88, 1.88]
+    },
+    {
+      "id": "mock-ucl-007",
+      "sport": "football",
+      "league": "UEFA Champions League",
+      "home": "Manchester City",
+      "away": "Atletico Madrid",
+      "offset_minutes": -300,
+      "odds": {"home": 1.55, "draw": 4.00, "away": 5.40},
+      "totals": [{"line": 2.5, "over": 1.98, "under": 1.82}],
+      "btts": [1.85, 1.92],
+      "score": [3, 1]
+    },
+    {
+      "id": "mock-epl-008",
+      "sport": "football",
+      "league": "Premier League",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "offset_minutes": -400,
+      "odds": {"home": 1.72, "draw": 3.90, "away": 4.60},
+      "totals": [{"line": 2.5, "over": 1.88, "under": 1.92}],
+      "btts": [1.70, 2.10],
+      "score": [1, 1]
+    },
+    {
+      "id": "mock-laliga-009",
+      "sport": "football",
+      "league": "La Liga",
+      "home": "Barcelona",
+      "away": "Valencia",
+      "offset_minutes": -1500,
+      "odds": {"home": 1.30, "draw": 5.60, "away": 9.50},
+      "totals": [{"line": 3.5, "over": 1.80, "under": 1.98}],
+      "btts": [2.60, 1.46],
+      "score": [4, 0]
+    },
+    {
+      "id": "mock-seriea-010",
+      "sport": "football",
+      "league": "Serie A",
+      "home": "AC Milan",
+      "away": "Napoli",
+      "offset_minutes": -2880,
+      "odds": {"home": 2.45, "draw": 3.15, "away": 2.95},
+      "totals": [{"line": 2.5, "over": 2.00, "under": 1.80}],
+      "btts": [1.80, 1.95],
+      "score": [0, 2]
+    }
+  ]
+}
